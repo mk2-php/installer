@@ -12,21 +12,32 @@
 		"php": ">=5.4.0",
 		"mk2/libraries":"dev-master",
 		"mk2/orm":"dev-master",
-		"mk2/validator":"dev-master"
+		"mk2/validator":"dev-master",
+		"mk2/backpack_log":"dev-master",
+		"mk2/backpack_encrypt":"dev-master",
+		"mk2/backpack_encryptrsa":"dev-master",
+		"mk2/backpack_cache":"dev-master",
+		"mk2/backpack_session":"dev-master",
+		"mk2/backpack_cookie":"dev-master",
+		"mk2/backpack_token":"dev-master",
+		"mk2/backpack_auth":"dev-master",
+		"mk2/ui_form":"dev-master",
+		"mk2/ui_html":"dev-master"
 	},
 	"repositories": [
-		{
-			"type": "git",
-			"url": "https://github.com/mk2-php/libraries.git"
-		},
-		{
-			"type": "git",
-			"url": "https://github.com/mk2-php/orm.git"
-		},
-		{
-			"type": "git",
-			"url": "https://github.com/mk2-php/validator.git"
-		}
+		{"type": "git","url": "https://github.com/mk2-php/libraries.git"},
+		{"type": "git","url": "https://github.com/mk2-php/orm.git"},
+		{"type": "git","url": "https://github.com/mk2-php/validator.git"},
+		{"type": "git","url": "https://github.com/mk2-php/Backpack-Log.git"},
+		{"type": "git","url": "https://github.com/mk2-php/Backpack-Encrypt.git"},
+		{"type": "git","url": "https://github.com/mk2-php/Backpack-EncryptRsa.git"},
+		{"type": "git","url": "https://github.com/mk2-php/Backpack-Cache.git"},
+		{"type": "git","url": "https://github.com/mk2-php/Backpack-Session.git"},
+		{"type": "git","url": "https://github.com/mk2-php/Backpack-Cookie.git"},
+		{"type": "git","url": "https://github.com/mk2-php/Backpack-Token.git"},
+		{"type": "git","url": "https://github.com/mk2-php/Backpack-Auth.git"},
+		{"type": "git","url": "https://github.com/mk2-php/UI-Form.git"},
+		{"type": "git","url": "https://github.com/mk2-php/UI-Html.git"}
 	],
 	"autoload": {
 		"psr-4": {
