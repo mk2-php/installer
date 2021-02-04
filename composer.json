@@ -8,6 +8,7 @@
 		"name": "Nakajima Satoru"
 	}],
 	"keywords": ["PHP","php","Framework","framework","mark2","Web"],
+	"minimum-stability": "dev",
 	"require": {
 		"php": ">=5.4.0",
 		"mk2/libraries":"^1.0.0",
