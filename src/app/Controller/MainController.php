@@ -26,7 +26,7 @@ class MainController extends AppController{
 	}
 		
 	public function index(){
-		$this->Response->setData("title","Mark2 PHP FW");
+		$this->Response->setData("title","Welcome Page! | Mark2 PHP Freamwork");
 	}
 
 }
