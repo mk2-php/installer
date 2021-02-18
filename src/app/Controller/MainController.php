@@ -19,7 +19,7 @@ class MainController extends AppController{
 		 */
 	}
 	
-	public function handleAfter(){
+	public function handleAfter($input){
 		/**
 		 * handle after area
 		 */

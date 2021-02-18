@@ -22,7 +22,7 @@ class AppController extends Controller{
 		 */
 	}
 	
-	public function handleAfter(){
+	public function handleAfter($input){
 		/**
 		 * handle after area
 		 */
