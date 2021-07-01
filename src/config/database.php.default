@@ -1,11 +1,29 @@
 <?php
 
+/**
+ * ===================================================
+ * 
+ * PHP Framework "Mk2"
+ *
+ * config/database
+ * 
+ * URL : https://www.mk2-php.com/
+ * 
+ * Copylight : Nakajima-Satoru 2021.
+ *           : Sakaguchiya Co. Ltd. (https://www.teastalk.jp/)
+ * 
+ * ===================================================
+ */
+
 namespace app\Config;
 
 use PDO;
 
 return [
 
+	/**
+	 * deafult database connection
+	 */
 	"default"=>[
 		'orm'=>'mk2orm',
 		"driver"=>"mysql",
@@ -23,6 +41,9 @@ return [
 		],
 	],
 
+	/**
+	 * sub database connection (type2)
+	 */
 	"type2"=>[
 		'orm'=>'mk2orm',
 		"driver"=>"mysql",
@@ -36,7 +57,4 @@ return [
 		"prefix"=>"",
 	],
 
-	"test"=>[
-		"type"=>"mysql",
-	]
 ];

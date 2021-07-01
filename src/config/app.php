@@ -1,5 +1,20 @@
 <?php
 
+/**
+ * ===================================================
+ * 
+ * PHP Framework "Mk2"
+ *
+ * config/app
+ * 
+ * URL : https://www.mk2-php.com/
+ * 
+ * Copylight : Nakajima-Satoru 2021.
+ *           : Sakaguchiya Co. Ltd. (https://www.teastalk.jp/)
+ * 
+ * ===================================================
+ */
+
 namespace Mk2\Libraries;
 
 return [
@@ -10,6 +25,11 @@ return [
 	 * Specify the development application name here.
 	 */
 	'appName'=>'Mk2 SYS',
+
+	/**
+	 *  - version
+	 */
+	"version"=>1,
 
 	/**
 	 * - debugMode
