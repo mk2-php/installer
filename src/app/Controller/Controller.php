@@ -5,7 +5,7 @@
  * 
  * PHP Framework "Mk2"
  *
- * MainController
+ * Controller
  * 
  * URL : https://www.mk2-php.com/
  * 
@@ -17,33 +17,20 @@
 
 namespace App\Controller;
 
-class MainController extends Controller{
+// The inheritance based on "Controller"(As BaseController) use.
+use Mk2\Libraries\Controller As BaseController;
 
-	/**
-	 * handleBefore
-	 */
+class Controller extends BaseController{
+
+	public $Template="default";
+	public $autoRender=true;
+	
 	public function handleBefore(){
-		parent::handleBefore();
-
 		// handle before area
 	}
-
-	/**
-	 * handleAfter
-	 * @param $input
-	 */
+	
 	public function handleAfter($input){
-		parent::handleAfter($input);
-		
 		// handle after area
 	}
 
-	/**
-	 * index
-	 */
-	public function index(){
-
-		// Send title to render (View, Template, ViewPart)
-		$this->Response->setData("title","Welcome Page! | Mark2 PHP Freamwork");
-	}
 }
