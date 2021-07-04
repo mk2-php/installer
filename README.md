@@ -57,7 +57,7 @@ If you need to install it separately,
 Install by executing the following command on the terminal where Composer is installed.
 
 ```
-composer require mk2/libraries
+composer require mk2/installer
 ```
 
 * Since ``config/database.php`` is not attached at the initial stage,  

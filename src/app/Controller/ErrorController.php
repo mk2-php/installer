@@ -5,7 +5,7 @@
  * 
  * PHP Framework "Mk2"
  *
- * AppController
+ * ErrorController
  * 
  * URL : https://www.mk2-php.com/
  * 
@@ -17,20 +17,16 @@
 
 namespace App\Controller;
 
-// The inheritance based on "Controller" use.
-use Mk2\Libraries\Controller;
+class ErrorController extends Controller{
 
-class AppController extends Controller{
+	/**
+	 * index
+	 * @param $exception
+	 */
+	public function index($exception){
 
-	public $Template="default";
-	public $autoRender=true;
-	
-	public function handleBefore(){
-		// handle before area
+		// Pass exception to View.
+		$this->Response->setData("exception",$exception);
+
 	}
-	
-	public function handleAfter($input){
-		// handle after area
-	}
-
 }
